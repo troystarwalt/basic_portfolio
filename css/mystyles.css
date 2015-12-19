@@ -1,0 +1,92 @@
+html, body {
+	margin: 0;
+	font-family: arial;
+}
+
+body {
+/*Rgba Hex Android Canvas SVG PHP*/
+/*background: -moz-linear-gradient(269deg, rgba(143,192,169,1) 0%, rgba(143,192,169,1) 15%, rgba(104,176,171,1) 62%, rgba(74,124,89,1) 100%); /* ff3.6+ */*/
+/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(143,192,169,1)), color-stop(15%, rgba(143,192,169,1)), color-stop(62%, rgba(104,176,171,1)), color-stop(100%, rgba(74,124,89,1))); /* safari4+,chrome */*/
+/*background: -webkit-linear-gradient(269deg, rgba(143,192,169,1) 0%, rgba(143,192,169,1) 15%, rgba(104,176,171,1) 62%, rgba(74,124,89,1) 100%); /* safari5.1+,chrome10+ */*/
+/*background: -o-linear-gradient(269deg, rgba(143,192,169,1) 0%, rgba(143,192,169,1) 15%, rgba(104,176,171,1) 62%, rgba(74,124,89,1) 100%); /* opera 11.10+ */*/
+/*background: -ms-linear-gradient(269deg, rgba(143,192,169,1) 0%, rgba(143,192,169,1) 15%, rgba(104,176,171,1) 62%, rgba(74,124,89,1) 100%); /* ie10+ */*/
+/*background: linear-gradient(181deg, rgba(143,192,169,1) 0%, rgba(143,192,169,1) 15%, rgba(104,176,171,1) 62%, rgba(74,124,89,1) 100%); /* w3c */*/
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8FC0A9', endColorstr='#4A7C59',GradientType=0 ); /* ie6-9 */*/
+}
+
+.page-wrapper {
+	width: 100%;
+	margin: 0 5px;
+}
+
+.flexbox-wrapper {
+
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	flex-flow: column;
+}
+
+.expand-to-full-content {
+	flex: 1;
+}
+
+.top-content {
+	display: flex;
+	width: 100%;
+}
+
+header {
+	flex: 1;
+}
+
+.navigation {
+	flex: 0 0 auto;
+	align-self: center;
+}
+
+ul {
+	display: flex;
+	widtH: 100%;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	width: 100px;
+}
+
+
+.content {
+	display: flex;
+	flex-flow: column;
+}
+
+.about-content {
+	min-height: 100vh;
+}
+
+.portfolio-content {
+	display: flex;
+	min-height: 100vh;
+}
+
+.tools-content {
+	min-height: 100vh;
+}
+
+.contact-content {
+	min-height: 100vh;
+}
+
+footer {
+	height: 30px;
+	text-align: center;
+	background: purple;
+	width: 100%;
+}
